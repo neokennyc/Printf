@@ -31,7 +31,6 @@ int output_ROT13(va_list arg);
 int output_octal(va_list arg);
 int _printf(const char *format, ...);int output_ints(va_list arg);
 int (*select_output(char c))(va_list);
-const char* (*flagtype(char c))(const char *, char, va_list);
 int output_unsignedint(va_list arg);
 
 #endif
