@@ -41,14 +41,7 @@ if (s == 'x' || s == 'X')
 	print_length++;
 }
 
-//flags = flagtype(*format);
 f = format;
-//while (flags)
-//{
-//format =flags(f, s, args);
-//print_length++;
-//		break;
-//		}
 output = select_output(*format);
 if (output)
 {
