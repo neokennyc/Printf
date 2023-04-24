@@ -4,9 +4,6 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
-#define ABS(x) ((x) < 0 ? (x) : (-x))
-
-#define BUFF_SIZE 1024
 /**
  * struct myOutputs - This struct will be used to filter which print
  * function for i,c,s,d,x,g,f......
