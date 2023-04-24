@@ -12,7 +12,6 @@ int _printf(const char *format, ...)
 	int print_length;
 	va_list args;
 int (*output)(va_list);
-const char* (*flags)(const char *c, char sp, va_list);
 const char *f;
 char s;
 int i = 0;
